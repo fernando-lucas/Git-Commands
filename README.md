@@ -2,15 +2,15 @@
 _Uma lista dos comandos Git mais usados_
 
 ## Índice
-**[Obtendo & Criação de Projetos](#Obtendo-&-Criação-de-Projetos)**  
-**[Obtenha um repositório](#Obtenha-um-repositório)**  
-**[Básico](#Basico)**
-**[Branching & Merging](#Branching-&-Merging)**
-**[Sharing & Updating Projects](#Sharing-&-Updating-Projects)**
-**[Inspeção & Comparação](#Inspeção-&-Comparação)**
-**[Desfazendo Coisas](#Desfazendo-Coisas)**
-**[Dicas Úteis](#Dicas-Úteis)**
-**[Links Úteis](#Links-Úteis)**
+**[Obtendo & Criação de Projetos](#Obtendo-&-Criação-de-Projetos)** <br>
+**[Obtenha um repositório](#Obtenha-um-repositório)** <br>
+**[Básico](#Basico)** <br>
+**[Branching & Merging](#Branching-&-Merging)** <br>
+**[Sharing & Updating Projects](#Sharing-&-Updating-Projects)** <br>
+**[Inspeção & Comparação](#Inspeção-&-Comparação)** <br>
+**[Desfazendo Coisas](#Desfazendo-Coisas)** <br>
+**[Dicas Úteis](#Dicas-Úteis)** <br>
+**[Links Úteis](#Links-Úteis)** <br>
 ---
 
 ### Obtendo & Criação de Projetos
