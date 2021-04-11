@@ -2,9 +2,9 @@
 _Uma lista dos comandos Git mais usados_
 
 ## Índice
-**[Obtendo & Criação de Projetos](#Obtendo-&-Criação-de-Projetos)** <br>
-**[Obtenha um repositório](#Obtenha-um-repositório)** <br>
-**[Básico](#Basico)** <br>
+**[Configurações basicas](#Configurações-basicas)** <br>
+**[Obtendo e criando um projetos](#Obtendo-e-criando-um-projetos)** <br>
+**[Comandos basicos](#Comandos-basico)** <br>
 **[Branching & Merging](#Branching-&-Merging)** <br>
 **[Sharing & Updating Projects](#Sharing-&-Updating-Projects)** <br>
 **[Inspeção & Comparação](#Inspeção-&-Comparação)** <br>
@@ -13,15 +13,24 @@ _Uma lista dos comandos Git mais usados_
 **[Links Úteis](#Links-Úteis)** <br>
 ---
 
-### Obtendo & Criação de Projetos
+### Configurações basicas
+
+| Comando | Descrição |
+| ------- | --------- |
+| `$ git config --global user.name "Meu Nome"` | Define o nome do usuário |
+| `$ git config --global user.email "meu-email@email"` | Define o email do usuário |
+| `$ git config --global core.editor notepad`| Define o editor de texto |
+| `$ git config --list` | Exibe as configurações do git, incluindo as citadas acima |
+
+### Obtendo e criando um projeto
 
 | Comando | Descrição |
 | ------- | --------- |
 | `$ git init` | Inicializa um repositório Git local |
 | `$ git clone <usuário@servidor:/caminho/para/o/repositório/.git>` | Cria uma cópia local de um repositório remoto |
-|`$ git clone </caminho/para/o/repositório/.git>`|Cria uma cópia de trabalho em um repositório local|
+| `$ git clone </caminho/para/o/repositório/.git>`|Cria uma cópia de trabalho em um repositório local|
 
-### Básicos
+### Comandos basicos
 
 | Comando | Descrição |
 | ------- | --------- |
