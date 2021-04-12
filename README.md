@@ -5,6 +5,7 @@ _Uma lista dos comandos Git mais usados_
 **[Configurações basicas](#Configurações-basicas)** <br>
 **[Obtendo e criando um projetos](#Obtendo-e-criando-um-projetos)** <br>
 **[Comandos basicos](#Comandos-basico)** <br>
+**[Repositório remoto](#Repositório-remoto)** <br>
 **[Branching & Merging](#Branching-&-Merging)** <br>
 **[Sharing & Updating Projects](#Sharing-&-Updating-Projects)** <br>
 **[Inspeção & Comparação](#Inspeção-&-Comparação)** <br>
@@ -39,6 +40,15 @@ _Uma lista dos comandos Git mais usados_
 | `$ git add .` | Adiciona todos os arquivos novos ou modificados para a área de stage |
 | `$ git commit -m "<Mensagem de Commit>"` | Comita as alterações |
 | `$ git rm -r <nome-arquivo.txt>` | Remove um arquivo (ou pasta) |
+
+### Repositório remoto
+| Comando | Descrição |
+| ------- | --------- |
+| `$ git remote add origin https://github.com/fernando-lucas/Git-Commands.git` | Associa o repositório local ao repositório remoto |
+| `$ git remote –v ` | Lista os repositórios remotos associados |
+| `$ git push -u origin master` | Realizar envio do repositório local para o repositório remoto |
+| `$ git pull origin` | Busca o repositório remoto para o repositório local, realizando o “merge” dos “branchs” |
+| `$ git fetch origin` | Busca o repositório remoto para o repositório local, sem realizar o “merge” dos “branchs” |
 
 ### Branching & Merging
 
